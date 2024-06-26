@@ -1,11 +1,8 @@
 # Project-8_Stream-analytics
-# Generating random words
-https://wonderwords.readthedocs.io/en/latest/quickstart.html#the-randomsentence-class
-
-# Sentiment Analysis using textblob
-# How to
-1. Run `python3 -m venv env` to create virtual environment
-2. Run `pip3 install -r requirements.txt` to install Python packages
-3. Run `docker-compose up` to spin up Kafka broker
-4. Run `python3 sentences_producer.py` to run the producer to produce data
-5. Run `python3 analytics.py` to get the data stream from Kafka and run the sentiment analysis
+## Analisis Sentimen Menggunakan TextBlob
+### Langkah Langkah :
+- Buat lingkungan virtual dengan menjalankan perintah berikut:  'python3 -m venv env
+- Instal paket-paket Python yang diperlukan : 'pip3 install -r requirements.txt
+- Jalankan docker-compose up untuk memulai broker Kafka: 'docker-compose up
+- Jalankan sentences_producer.py untuk menghasilkan data : 'python3 sentences_producer.py
+- Jalankan analytics.py untuk mendapatkan aliran data dari Kafka dan menjalankan analisis sentimen:'python3 analytics.py
